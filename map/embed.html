@@ -1,0 +1,160 @@
+<!--
+// Copyright 2010 Google
+
+/**
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Google I/O - Interactive Conference Map</title>
+    <meta name="viewport" content="initial-scale=1.0;maximum-scale=1.0;user-scalable=no">
+    <style type="text/css">
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: Helvetica, Arial;
+      }
+
+      .hide {
+        display: none !important;
+      }
+
+      #map-canvas {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+      }
+
+      #toolbox {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: rgba(255, 255, 255, 0.85);
+        height: 48px;
+      }
+
+      #level-buttons {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+      #label-level {
+        color: #355689;
+        font-weight: bold;
+        font-size: 18px;
+        margin-right: 4px;
+      }
+
+      #my-location,
+      .level-button {
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        background: #fff;
+        outline: 0;
+        color: #355689;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin: 3px;
+        font-weight: bold;
+        font-size: 18px;
+        border: 1px solid rgba(0,0,0,0.5);
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        -moz-box-shadow: 1px 1px 0 rgba(0,0,0,0.25);
+        -webkit-box-shadow: 1px 1px 0 rgba(0,0,0,0.25);
+        box-shadow: 2px 2px 0 rgba(0,0,0,0.25);
+      }
+
+      .level-button {
+        margin-left: -1px;
+      }
+
+      .selected {
+        background: #355689;
+        color: #fff;
+      }
+
+      #my-location {
+        background: #fff url(images/goto_location.png) no-repeat scroll 50% 50%;
+        text-indent: -3000em;
+      }
+
+      .infowindow {
+        font-family: arial, helvetica, sans-serif;
+        font-size: 13px;
+        text-align: left;
+      }
+
+      .infowindow h3 {
+        margin: 0 0 4px 0;
+        padding: 0;
+        color: #000;
+      }
+
+      .session, .sandbox {
+        padding: 2px 0;
+        clear: both;
+      }
+
+      .session-time {
+        color: #aaa;
+        float: left;
+        padding-right: 4px;
+        width: 4em;
+      }
+
+      .session-title {
+        margin-left: 4.3em;
+        width: 200px;
+      }
+
+      .sandbox-items {
+        float: left;
+        width: 145px;
+        padding: 0 8px 2px 0;
+     }
+
+    </style>
+  </head>
+  <body>
+    <div id="map-container">
+      <div id="toolbox" class="hide">
+        <a href="#" id="my-location" class="hide"><span class="hide">My location</span></a>
+        <div id="level-buttons">
+          <span id="label-level">Level</span>
+          <a class="level-button sprite-toggle" id="btn-level1"
+            href="#"><span class="hide">Level</span> <span>1</span></a>
+
+          <a class="level-button sprite-toggle" id="btn-level2"
+            href="#"><span class="hide">Level</span> <span>2</span></a>
+          <a class="level-button sprite-toggle" id="btn-level3"
+            href="#"><span class="hide">Level</span> <span>3</span></a>
+        </div>
+      </div>
+      <div id="map-canvas"></div>
+    </div>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="scripts/googleio.js"></script>
+  </body>
+</html>

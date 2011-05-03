@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2010 Google Inc.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<search_suggest>
+<word>activitystrea.ms</word>
+<word>adsense</word>
+<word>ajax</word>
+<word>analytics</word>
+<word>android</word>
+<word>api</word>
+<word>app engine</word>
+<word>applications</word>
+<word>apps</word>
+<word>atom</word>
+<word>background</word>
+<word>build</word>
+<word>business</word>
+<word>buzz</word>
+<word>calendar</word>
+<word>charts</word>
+<word>chat</word>
+<word>chrome</word>
+<word>closure</word>
+<word>cloud</word>
+<word>compiler</word>
+<word>dalvik</word>
+<word>data</word>
+<word>datastore</word>
+<word>design</word>
+<word>desktop</word>
+<word>development</word>
+<word>docs</word>
+<word>earth</word>
+<word>embedded</word>
+<word>enterprise</word>
+<word>extension</word>
+<word>extensions</word>
+<word>fireside</word>
+<word>framework</word>
+<word>friends</word>
+<word>gadgets</word>
+<word>gaming</word>
+<word>geo</word>
+<word>geospatial</word>
+<word>gmail</word>
+<word>go</word>
+<word>google</word>
+<word>gwt</word>
+<word>handset</word>
+<word>html</word>
+<word>igoogle</word>
+<word>iphone</word>
+<word>java</word>
+<word>javascript</word>
+<word>kml</word>
+<word>library</word>
+<word>maps</word>
+<word>marketplace</word>
+<word>mobile</word>
+<word>monetizing</word>
+<word>native</word>
+<word>oauth</word>
+<word>open</word>
+<word>openid</word>
+<word>opensocial</word>
+<word>performance</word>
+<word>platform</word>
+<word>power</word>
+<word>powermeter</word>
+<word>pubsubhubbub</word>
+<word>python</word>
+<word>restful</word>
+<word>robots</word>
+<word>rss</word>
+<word>saas</word>
+<word>scalable</word>
+<word>scripting</word>
+<word>search</word>
+<word>seo</word>
+<word>server</word>
+<word>share</word>
+<word>sites</word>
+<word>sketchup</word>
+<word>social</word>
+<word>source</word>
+<word>speed</word>
+<word>team</word>
+<word>testing</word>
+<word>toolkit</word>
+<word>wave</word>
+<word>webfinger</word>
+<word>youtube</word>
+</search_suggest>

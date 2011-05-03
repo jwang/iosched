@@ -1,0 +1,157 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #355689;
+  height: 100%;
+}
+
+body {
+  background: #355689 url(../images/mobile-bar.png) repeat-x scroll 50% 0;
+  font-family: helvetica, arial, sans-serf;
+  font-size: 12px;
+}
+
+img {
+  border: 0;
+}
+
+#container {
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.section {
+  clear: both;
+  position: relative;
+}
+
+
+#io-logo {
+  background: url(../images/mobileio2010logo.png) no-repeat;
+  display: block;
+  height: 54px;
+  width: 265px;
+  text-indent: -3000em;
+  text-decoration: none;
+  padding-bottom: 6px;
+  margin: 0 auto;
+}
+
+
+h1 {
+  display: none;
+}
+
+#map-container {
+  background: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#map-canvas {
+  height: 100%;
+}
+
+#toolbox {
+  position: absolute;;
+  right: 4px;
+  top: 4px;
+  z-index: 1000;
+  background: #fff;
+  padding: 0 0 2px 10px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -webkit-box-shadow: -2px 5px 3px rgba(33,33,33,0.5);
+  -moz-box-shadow: -2px 5px 3px rgba(33,33,33,0.5);
+  box-shadow: -2px 5px 3px rgba(33,33,33,0.5);
+  line-height: 26px;
+}
+
+.hide {
+  display: none;
+}
+
+#label-level {
+  height: 26px;
+}
+
+.item {
+  display: inline-block;
+}
+
+.level-button {
+  outline: 0;
+  text-decoration: none;
+  font-weight: bold;
+  color: #355689;
+  font-size: 1.6em;
+  display: inline-block;
+  height: 26px;
+  width: 30px;
+}
+
+#label-level {
+  color: #355689;
+}
+
+
+.selected {
+  background: #355689;
+  color: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#bottom {
+  color: #fff;
+}
+
+#bottom a, #bottom a:hover, #bottom a:visited {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#learn-more {
+  display: none;
+}
+
+.infowindow {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 13px;
+  text-align: left;
+}
+
+.infowindow h3 {
+  margin: 0 0 4px 0;
+  padding: 0;
+  color: #000;
+}
+
+.session,
+.sandbox {
+  padding: 2px 0;
+  clear: both;
+}
+
+.session-time {
+  color: #aaa;
+  float: left;
+  padding-right: 4px;
+  width: 8em;
+}
+
+.session-title,
+.session-products {
+  margin-left: 8.5em;
+}
+
+.sandbox-items {
+  float: left;
+  width: 140px;
+  padding: 0 8px 2px 0;
+}

@@ -1,0 +1,194 @@
+/**
+ * Copyright 2010 Google
+ */
+
+/**
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #355689;
+}
+
+body {
+  background: #355689 url(../images/bar.png) repeat-x scroll 0 0;
+  font-family: helvetica, arial, sans-serf;
+  font-size: 12px;
+  text-align: center;
+}
+
+img {
+  border: 0;
+}
+
+#container {
+  margin: 0 auto;
+  width: 960px;
+  padding: 25px 20px;
+  text-align: left;
+}
+
+.section {
+  margin-bottom: 20px;
+  clear: both;
+  position: relative;
+}
+
+#io-logo {
+  background: url(../images/io2010logo.png) no-repeat;
+  display: block;
+  height: 64px;
+  width: 314px;
+  text-indent: -3000em;
+  text-decoration: none;
+  outline: 0;
+}
+
+h1 {
+  background: url(../images/headline.gif) no-repeat;
+  height: 21px;
+  width: 281px;
+  margin: 25px 0 0 0;
+  padding: 0;
+  font-size: 0;
+  text-indent: -3000em;
+  text-align: left;
+}
+
+.split .left {
+  display: inline;
+  float: left;
+  text-align: left;
+}
+
+.split .right {
+  display: inline;
+  float: right;
+  text-align: right;
+}
+
+#middle {
+  padding-top: 20px;
+}
+
+#map-container {
+  background: #fff;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#map-canvas {
+  height: 500px;
+}
+
+#toolbox {
+  position: absolute;;
+  right: 10px;
+  top: 26px;
+  z-index: 1000;
+  background: #fff;
+  padding: 0 0 5px 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-box-shadow: -2px 5px 3px rgba(33,33,33,0.5);
+  -moz-box-shadow: -2px 5px 3px rgba(33,33,33,0.5);
+  box-shadow: -2px 5px 3px rgba(33,33,33,0.5);
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+
+.hide {
+  display: none;
+}
+
+#label-level {
+  color: #355689;
+  font-weight: bold;
+  font-size: 0.7em;
+  margin-right: 4px;
+}
+
+.item {
+  float: left;
+  outline: 0;
+}
+
+.level-button {
+  outline: 0;
+  color: #355689;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  padding: 0 9px;
+  margin: 0 2px;
+}
+
+.selected {
+   background: #355689;
+  color: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+
+#bottom       {
+  color: #fff;
+}
+
+#bottom a, #bottom a:hover, #bottom a:visited {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.infowindow {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 13px;
+  text-align: left;
+}
+
+.infowindow h3 {
+  margin: 0 0 4px 0;
+  padding: 0;
+  font-size: 13px;
+  color: #000;
+  font-family: arial, helvetica, sans-serif;
+}
+
+.session,
+.sandbox {
+  padding: 2px 0;
+  clear: both;
+}
+
+.session-time {
+  float: left;
+  width: 8.1em;
+  color: #aaa;
+}
+
+.session-title,
+.session-products {
+  margin-left: 8.5em;
+}
+
+.sandbox-items {
+  float: left;
+  width: 145px;
+  padding: 0 8px 2px 0;
+}
